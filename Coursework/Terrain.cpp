@@ -143,13 +143,13 @@ Terrain::Terrain() {
 	Rotate1->AddChild(Wolf);
 
 	OBJMesh* n2 = new OBJMesh;
-	n2->LoadOBJMesh(MESHDIR"Train.obj");
+	n2->LoadOBJMesh(MESHDIR"armourstand.obj");
 	armourStand = n2;
 	ArmourStand = new SceneNode(armourStand, Vector4(1, 1, 1, 1));
 	ArmourStand->SetDrawMeshType(2);
 	ArmourStand->SetDrawMethodType(2);
 	ArmourStand->SetOBJMesh(armourStand);
-	ArmourStand->SetModelScale(Vector3(60, 60, 60));
+	ArmourStand->SetModelScale(Vector3(5, 5, 5));
 	ArmourStand->SetTransform(Matrix4::Translation(Vector3(-500, 137, 0)) * 
 		                      Matrix4::Rotation(-90.0f, Vector3(0, 1, 0)));
 	ArmourStand->SetTexture(trainTexture);
