@@ -1,5 +1,9 @@
 Youtube Link: https://youtu.be/m8StZYmgFsc
 
+#Rebuild "nclgl" before start
+
+#Set the "Coursework" as the startup project
+
 Features:
 
 1.Using multiple models(.msh and .obj) and textures.
